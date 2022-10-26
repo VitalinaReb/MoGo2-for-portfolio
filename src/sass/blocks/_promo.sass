@@ -1,0 +1,102 @@
+.promo
+    
+    min-height: 100vh
+    background: url("../img/picture.jpg") center center/cover no-repeat
+    padding-bottom: 30px
+    &__logo
+        height: 30px
+        img
+            height: 100%
+    &__menu
+        padding-top: 25px
+        display: flex
+        justify-content: space-between
+        align-items: center
+        font-style: 14px
+
+    &__hamburger
+        display: none
+    .burger__menu
+        height: 25px
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        cursor: pointer
+        span
+            display: block
+            width: 40px
+            height: 3px
+            background: #fff
+            border-radius: 50px
+    .burger__slide
+        padding: 80px 25px
+        position: absolute
+        top: 0
+        left: 0
+        width: 50%
+        height: 100vh
+        background: #f78585 
+        z-index: 10
+        a
+            display: block
+            font-size: 25px
+            font-weight: 400
+            margin-left: 0
+            margin-bottom: 30px
+            text-decoration: none
+            text-transform: uppercase
+            color: #fff
+            &:hover
+                color: #fce38a
+                text-decoration: underline
+    .disp
+        display: none
+    &__list
+        right: 0
+        a
+            display: inline-block
+            margin-left: 50px
+            color: #fff
+            text-transform: uppercase
+            cursor: pointer
+            transition: all .5s
+            
+            &:hover
+                color: #fce38a
+                text-decoration: underline
+   
+    &__mogo
+        width: 840px
+        text-align: center
+        padding-top: 170px
+        margin: 0 auto
+    &__subtitle
+        font-family: 'Kaushan Script', cursive
+        font-size: 72px
+        color: #fff
+    &__title
+        font-size: 150px
+        font-weight: 700
+        line-height: 140px 
+        color: #fff
+        text-transform: uppercase
+        margin-top: 50px
+        margin-bottom: 0
+    .divider
+        background: #fff
+    &__btn
+        text-align: center
+        display: block
+        font-weight: bold
+        font-size: 14px
+        line-height: 35px
+        text-transform: uppercase
+        height: 40px
+        width: 160px
+        border: 3px solid #fff
+        color: #fff
+        text-decoration: none
+        margin: 0 auto
+        margin-bottom: 160px
+        &:hover
+            background: #fce38a
